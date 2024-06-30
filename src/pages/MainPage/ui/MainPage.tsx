@@ -9,7 +9,6 @@ import {InfoBlock} from "@/components/infoBlock";
 import {Form} from "@/components/form";
 import {Footer} from "@/components/footer";
 import {PageLoader} from "@/pages/PageLoader";
-import {Loader} from "@/components/loader";
 
 export const MainPage = () => {
     return (

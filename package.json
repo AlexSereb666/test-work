@@ -1,5 +1,4 @@
 {
-  "homepage": "http://alexsereb666.github.io/test-work/build",
   "name": "test-work",
   "version": "1.0.0",
   "main": "index.js",
@@ -11,9 +10,7 @@
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",
-    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
-    "predeploy" : "npm run build:prod",
-    "deploy" : "gh-pages -d build"
+    "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
   },
   "keywords": [],
   "author": "",
