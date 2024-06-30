@@ -20,6 +20,18 @@
   cursor: pointer;
 }
 
+.themePlus {
+  font-size: var(--font-size-text-l);
+  font-weight: var(--font-weight-bold);
+  width: 24px;
+  height: 24px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .theme:hover {
   color: var(--font-color-4);
 
@@ -39,19 +51,7 @@
   padding-bottom: 20px;
 }
 
-.themePlus {
-  font-size: var(--font-size-text-l);
-  font-weight: var(--font-weight-bold);
-  width: 24px;
-  height: 24px;
-  border: 2px solid black;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-@media (max-width: 850px) {
+@media (width <= 850px) {
   .themeText {
     width: 90%;
   }

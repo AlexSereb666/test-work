@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import * as cls from './CommentItem.module.scss';
 
 export interface Comment {
-    avatar: string | any;
+    avatar: any;
     name: string;
     city: string;
     text: string;

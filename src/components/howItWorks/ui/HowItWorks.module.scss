@@ -14,15 +14,15 @@
   justify-content: center;
 }
 
-@media (max-width: 760px) {
+@media (width <= 760px) {
   .howItWorksTitle {
-    padding: 60px 0 35px 0;
+    padding: 60px 0 35px;
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   .howItWorksTitle {
     font-size: var(--font-size-text-mm);
-    padding: 60px 0 25px 0;
+    padding: 60px 0 25px;
   }
 }

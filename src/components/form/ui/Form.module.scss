@@ -36,7 +36,7 @@
   height: 64px;
 }
 
-@media (max-width: 830px) {
+@media (width <= 830px) {
   .name,
   .phone,
   .check,
@@ -50,13 +50,13 @@
   }
 }
 
-@media (max-width: 765px) {
+@media (width <= 765px) {
   .title {
     font-size: var(--font-size-text-mm);
   }
 }
 
-@media (max-width: 765px) {
+@media (width <= 765px) {
   .name,
   .phone,
   .check,

@@ -57,8 +57,8 @@ export const Navbar: React.FC = () => {
                     </div>
                     <ul>
                         {menuItems.map((item) => (
-                            <div className={cls.fullscreenMenuItem}>
-                                <li key={item.id}>
+                            <div className={cls.fullscreenMenuItem} key={item.id}>
+                                <li>
                                     <NavbarLink {...item} color='gray' onClick={closeMenu} />
                                     <span>{'>'}</span>
                                 </li>

@@ -8,6 +8,8 @@ import {Faq} from "@/components/faq";
 import {InfoBlock} from "@/components/infoBlock";
 import {Form} from "@/components/form";
 import {Footer} from "@/components/footer";
+import {PageLoader} from "@/pages/PageLoader";
+import {Loader} from "@/components/loader";
 
 export const MainPage = () => {
     return (
@@ -16,14 +18,14 @@ export const MainPage = () => {
             <Header />
             <HowItWorks />
             <Block3 />
-            <Suspense fallback="" >
+            <Suspense fallback={<PageLoader/>}>
                 <Comments />
             </Suspense>
-            <Suspense fallback="" >
+            <Suspense fallback={<PageLoader/>} >
                 <Faq />
             </Suspense>
             <InfoBlock />
-            <Suspense fallback="" >
+            <Suspense fallback={<PageLoader/>} >
                 <Form />
             </Suspense>
             <Footer />

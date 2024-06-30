@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(42, 108, 234, 0.8);
+  background-color: rgb(42 108 234 / 80%);
   z-index: 1;
 }
 
@@ -60,7 +60,7 @@
   height: 64px;
 }
 
-@media (max-width: 780px) {
+@media (width <= 780px) {
   .header {
     height: 1024px;
   }
@@ -79,14 +79,14 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (width <= 500px) {
   .centerBlock {
     width: 80%;
     height: 60%;
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   .header {
     height: 596px;
   }
@@ -96,7 +96,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (width <= 320px) {
   .header {
     height: 509px;
   }

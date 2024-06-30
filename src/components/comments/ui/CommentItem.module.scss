@@ -2,7 +2,7 @@
   width: 341px;
   height: 316px;
   background-color: var(--font-color-1);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
   border-radius: 8px;
   padding: 20px;
 }
@@ -37,7 +37,7 @@
   padding-top: 15px;
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   .comment {
     width: 300px;
     height: 281px;

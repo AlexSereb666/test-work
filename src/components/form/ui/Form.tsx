@@ -3,7 +3,7 @@ import * as cls from './Form.module.scss';
 import {Input} from "@/components/Input";
 import {CheckBox} from "@/components/checkBox";
 import {Button} from "@/components/button";
-import { setName, setPhone, setChecked, setActive } from '@/store/formSlice';
+import { setName, setPhone, setChecked } from '@/store/formSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import {RootState} from "@/store/store";
 
@@ -16,7 +16,6 @@ const Form = () => {
 
         dispatch(setName(''));
         dispatch(setPhone(''));
-        dispatch(setChecked(false));
     }
 
     return (

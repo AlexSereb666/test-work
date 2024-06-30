@@ -16,14 +16,14 @@
   width: 792px;
 }
 
-@media (max-width: 850px) {
+@media (width <= 850px) {
   .list {
     width: 100%;
     padding: 0 20px;
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   .title {
     font-size: var(--font-size-text-mm);
     padding-bottom: 50px;

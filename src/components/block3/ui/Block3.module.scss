@@ -36,14 +36,9 @@
   z-index: 1;
 }
 
-@media (max-width: 1300px) {
+@media (width <= 1300px) {
   .container {
     padding: 0 10px;
-  }
-
-  .images {
-    width: 592px;
-    height: 448px;
   }
 
   .image_1 img {
@@ -63,7 +58,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (width <= 760px) {
   .container {
     flex-wrap: wrap-reverse;
   }
@@ -86,7 +81,7 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (width <= 370px) {
   .image_1 img {
     width: 288px;
     height: 218px;

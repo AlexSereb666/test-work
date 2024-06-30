@@ -53,13 +53,13 @@
   background-color: var(--font-color-1);
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .navbar {
     padding: 0 16px;
   }
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .menu {
     display: none;
   }
@@ -70,7 +70,6 @@
 }
 
 .fullscreenMenu {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

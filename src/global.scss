@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'GraphikLCG';
+  font-family: GraphikLCG;
   src: url('@/assets/fonts/GraphikLCG-Black.woff') format('woff');
 }
 
@@ -14,7 +14,6 @@
   --font-size-text-ll: 16px;
   --font-size-text-lll: 14px;
   --font-size-text-llll: 12px;
-
   --fonst-size-btn-xl: 24px;
   --fonst-size-btn-m: 20px;
   --fonst-size-btn-l: 16px;
@@ -25,14 +24,14 @@
   --font-weight-bold: 600;
 
   // цвета //
-  --font-color-1: #ffffff;
-  --font-color-2: #000000;
+  --font-color-1: #fff;
+  --font-color-2: #000;
   --font-color-3: #ECEFF2;
   --font-color-4: #2A6CEA;
   --font-color-5: #397DFF;
-  --font-color-6: rgb(131, 137, 143);
+  --font-color-6: rgb(131 137 143);
   --font-color-7: #F6F8FA;
   --font-color-8: #F13636;
   --font-color-9: #C2C8CD;
-  --font-color-10: rgba(131, 137, 143, 0.5);
+  --font-color-10: rgb(131 137 143 / 50%);
 }
