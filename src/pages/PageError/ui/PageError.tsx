@@ -1,3 +1,4 @@
+import React from "react";
 import * as cls from './PageError.module.scss';
 
 export const PageError = () => {

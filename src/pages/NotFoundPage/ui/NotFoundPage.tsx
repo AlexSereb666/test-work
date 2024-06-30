@@ -1,3 +1,4 @@
+import React from "react";
 import * as cls from './NotFoundPage.module.scss';
 
 export const NotFoundPage = () => {

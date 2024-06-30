@@ -3,7 +3,7 @@ import * as cls from './HowItWorksItem.module.scss';
 
 export interface ListItem {
     id: number;
-    image: string;
+    image: any;
     title: string;
     desc: string;
 }
