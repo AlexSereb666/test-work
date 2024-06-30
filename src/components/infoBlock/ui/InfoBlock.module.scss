@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 662px;
+  background-color: var(--font-color-7);
+}
+
+.item {
+  width: 592px;
+  height: 245px;
+  padding: 10px;
+}
+
+.title {
+  font-size: var(--font-size-text-l);
+  font-weight: var(--font-weight-bold);
+  padding-bottom: 20px;
+}
+
+.desc {
+  font-size: var(--font-size-text-ll);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1216px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .item {
+    width: 100%;
+    height: auto;
+  }
+}

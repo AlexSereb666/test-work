@@ -1,0 +1,38 @@
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkboxLabelInput {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--font-color-6);
+  border-radius: 3px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  &:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 6px;
+      height: 12px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      position: relative;
+      top: 3px;
+      left: 8px;
+    }
+  }
+}
+
+.checkboxLabelText {
+  font-size: var(--font-size-text-ll);
+}

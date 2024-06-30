@@ -1,0 +1,11 @@
+.container {
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--font-color-10);
+}
+
+.text {
+  font-size: var(--font-size-text-l);
+}

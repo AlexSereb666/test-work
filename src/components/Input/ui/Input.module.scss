@@ -1,0 +1,65 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-size: var(--font-size-text-l);
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.labelInInput {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  padding: 0 5px;
+  color: #999;
+  transition: all 0.2s ease;
+}
+
+.labelInInputFocused {
+  top: 15px;
+  right: auto;
+  font-size: var(--font-size-text-lll);
+  color: var(--font-color-6);
+}
+
+.input {
+  padding: 20px 5px 5px 5px;
+  border: 2px solid var(--font-color-9);
+  border-radius: 4px;
+  width: 100%;
+  height: 64px;
+  transition: border-color 0.2s ease;
+  font-size: var(--font-size-text-l);
+}
+
+.inputError {
+  border-color: #dc3545;
+}
+
+.helperText {
+  font-size: var(--font-size-text-llll);
+  color: var(--font-color-8);
+}
+
+.validationIcon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.inputEmpty {
+  background-color: var(--font-color-7);
+  border: 2px solid var(--font-color-7);
+}
